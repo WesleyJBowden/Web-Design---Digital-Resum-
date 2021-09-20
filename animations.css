@@ -1,0 +1,21 @@
+ /* The animation code */
+ @keyframes animatedSquare {
+    0%   {background-color: white;;
+          transform: translateX(200px), translateY(200px)}
+    25%  {background-color: #474e5d;}
+    50%  {background-color: #ffffff;}
+    100% {background-color: #2f2f2f;}
+  }
+  
+  /* The element to apply the animation to */
+  .icons {
+    width: 100px;
+    height: 100px;
+    background-color:pink;
+    animation-name: animatedSquare;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+ } 
+   
+ 

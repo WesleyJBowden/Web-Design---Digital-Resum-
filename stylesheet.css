@@ -1,0 +1,111 @@
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+.bg-1 { 
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
+.bg-2 { 
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.bg-5 { 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+
+.jumbotron { 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+
+.modal-body{ 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+
+.modal-title{ 
+  background-color:#ffffff; /* White */
+  color:#555555;
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.picture {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.carousel-inner {
+ height: 70%; 
+ max-width: 100%;
+}
+
+.navbar-nav  li a:hover {
+  color: #1abc9c !important;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body { background-color:white; }
+   body { background-color: white; }
+   footer { max-width: 80%; } 
+   header { max-width: 80%; }
+   #content { max-width: 60%;}
+   #sidebar { max-width: 10%}
+   picture {
+    max-width: 100%;
+    max-height: auto; 
+  }
+   } 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   body { background-color: white; }
+   body { background-color: white; }
+   footer { max-width: 90%; } 
+   header { max-width: 90%; }
+   #content { max-width: 70%;}
+   #sidebar { max-width: 15%}
+   picture {
+    max-width: 100%;
+    max-height: auto; 
+  }
+   } 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   body { background-color: white; }
+   footer { max-width: 100%; } 
+   header { max-width: 100%; }
+   #content { max-width: 80%;}
+   #sidebar { max-width: 20%}
+   picture {
+    max-width: 100%;
+    max-height: auto; 
+  }
+   } 
+ 
+
+
