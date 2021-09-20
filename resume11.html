@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/animations.css">
+</head>
+
+<body>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Protection of Personal Information (POPI Act) 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Important Notification!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Please note all website data is handled in compliance with the POPI Act, please contact the admin for further information.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to my Site</h1>
+    <p class="lead">This site is all about me! You can find my CV as well as examples of all the projects I'm currently working on</p>
+    <hr class="my-4">
+    <p>Jump right in and have a look at what I have on offer.</p>
+    <a class="btn btn-primary btn-lg" href="#qualifications" role="button">Get Started</a>
+  </div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
+        <span class="icon-bar"></span>                       
+      </button>
+      <a class="navbar-brand" href="#greeting">Profile</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#qualifications">Qualifications</a></li>
+        <li><a href="#experience">Experience</a></li> 
+        <li><a href="#career">Career</a></li> 
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">Interests</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h1 class="margin">Wesley J Bowden</h1>
+  <img id= "headshot" src="images/wesleyjbowden.jpg" alt="Headshot" class="img-responsive img-circle margin" style="display:inline" width="350" height="350"> 
+  <h3>In this space I showcase my educational background, years of experience, unique skills, interests, and a bit of creativity.</h3>
+</div>
+
+<div class="container-fluid bg-6 text-center">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/forest.jpg" style="width:100%" class="img-responsive" style="display:inline" alt="Image">
+        <div class="carousel-caption">
+          <h3>Knowledge</h3>
+        </div>
+      </div>
+
+      <div class="item"> 
+        <img src="images/beach.jpg" style="width:100%" class="img-responsive" style="display:inline" alt="Image">
+        <div class="carousel-caption">
+          <h3>Perseverance</h3>
+         </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/pinkflowers3.jpg" style="width:100%" class="img-responsive" style="display:inline" alt="Image">
+        <div class="carousel-caption">
+          <h3>Growth</h3>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h2 class="margin" id="qualifications">Qualifications</h2>
+  <h3>Software Development at 
+    <a href="http://codespace.co.za/">CodeSpaceAcademy</a>
+   </h3>   
+    <p>Introduction to Web Design</p>
+    <h3>BA Communication Science at
+    <a href="https://www.unisa.ac.za/sites/corporate/default">University of South Africa</a>  
+   </h3>
+    <p>Organisational Communication, Marketing Communication, and Media Studies. NQF Level 7. Total Credits 360.</p>   
+   <h3>BCom Industrial and Organisational Psychology at
+    <a href="https://www.unisa.ac.za/sites/corporate/default">University of South Africa</a>  
+   </h3>
+    <p>Workplace Psychology, Human Resources, and Business Management. NQF Level 7. Total Credits 360.</p>   
+   <h3>Management Development Programme at
+    <a href="https://usb-ed.com/">University of Stellenbosch</a>  
+   </h3>
+    <p>Systems Thinking, Financial Management, Change Management, Supply Chain Management and Innovation. NQF Level 6. Total Credits 25.</p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h2 class="margin" id="experience">Experience</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 id="career">Career</h3><br>    
+        <p>
+         <ul>
+          <li>Liner Trades</li>
+          <li>Shipping Documentation</li>
+          <li>Risk Management</li>
+          <li>Financial Administration</li>
+          <li>Team Performance</li>
+          <li>Customer Relations</li>
+         </ul>
+        </p>
+      <br> 
+      <img src="images/seascape.jpg" class="img-responsive" style="display:inline" width="100%" height="350" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <h3 id="skills">Skills</h3><br>
+      <p>
+        <ul> 
+         <li>Customer Service</li>
+         <li>Imports and Exports</li>
+         <li>Communication</li>
+         <li>People Management</li>
+         <li>Quality Control</li>
+         <li>Six Sigma</li>
+        </ul>
+       </p>
+       <br>
+      <img src="images/nature.jpg" class="img-responsive" style="display:inline" width="100%" height="350" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <h3 id="interests">Interests</h3><br>
+      <p>
+        <ul>
+         <li>Graphic Design</li>
+         <li>Coding</li>
+         <li>Psychology</li>
+         <li>Digital Marketing</li>
+         <li>Photography</li>
+         <li>Travel</li>
+         </ul>
+       </p>
+       <br>
+      <img src="images/sky.jpg" class="img-responsive margin" style="display:inline" width="100%" height="350" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Background Picture -->
+<picture class="container-fluid bg-4">
+ <div>
+  <source media="(max-width: 650px)" srcset="images/image-small.png">
+  <source media="(max-width: 1000px)" srcset="images/image-medium.png">
+  <img src="images/image-large.png" alt="person on a bridge">
+ </div>
+</picture>
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+  <div id="footer">
+    <h2>Contact Details</h2>
+     <ul>
+      <a href="https://www.facebook.com/Wesley.J.Bowden" target="_blank">
+        <img class="icons" src="images/facebookIcon.png" alt="facebook" width="50" height="50"></a> 
+      <a href="mailto: wesleyjbowden@gmail.com" target="_blank">  
+        <img class="icons" src="images/gmailIcon.png" alt="wesleyjbowden@gmail.com" width="50" height="50"></a>  
+      <a href="https://www.linkedin.com/in/wesley-bowden-902609218/" target="_blank">
+       <img class="icons" src="images/linkedinIcon.png" alt="LinkedIn" width="50" height="50"></a> 
+     </ul>
+    </div> 
+</footer>
+</body>
+</html>
+
+
